@@ -1,9 +1,9 @@
 #!/bin/bash
 
-# Create timestamp
+# Create a timestamp
 timestamp=$(date +"%Y%m%d_%H%M")
 
-# Create Archive directory
+# Create an archive directory
 mkdir -p archived_logs
 
 # Move and rename existing logs
