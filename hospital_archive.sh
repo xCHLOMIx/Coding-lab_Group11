@@ -3,7 +3,7 @@
 # Create timestamp
 timestamp=$(date +"%Y%m%d_%H%M")
 
-# Create Archive Directory
+# Create Archive directory
 mkdir -p archived_logs
 
 # Move and rename existing logs
