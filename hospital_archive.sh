@@ -6,7 +6,7 @@ timestamp=$(date +"%Y%m%d_%H%M")
 # Create Archive Directory
 mkdir -p archived_logs
 
-# Move and rename current logs
+# Move and rename existing logs
 mv active_logs/heart_rate_log.log archived_logs/heart_rate_${timestamp}.log
 
 mv active_logs/temperature_log.log archived_logs/temperature_${timestamp}.log
