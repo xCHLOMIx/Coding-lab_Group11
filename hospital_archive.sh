@@ -20,5 +20,5 @@ touch active_logs/temperature_log.log
 
 touch active_logs/water_usage_log.log
 
-echo "Logs archived successfully at $timestamp"
+echo "Archiving succesful"
 
