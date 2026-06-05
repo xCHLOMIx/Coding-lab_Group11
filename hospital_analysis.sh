@@ -6,7 +6,7 @@ function process_vitals(){
 
 function water_audit(){
 	average=$(awk '{sum+=$6} END {print sum/(NR-1)}' active_logs/water_usage_log.log)
-	printf "The total average water consumption in Kenyatta National Hospital (KNH) is $average\n"
+	printf "The total average water consumption in Kenyatta National Hospital (KNH) is $average Litres/min\n"
 }
 
 process_vitals
