@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Create a timestamp
+# Create timestamp
 timestamp=$(date +"%Y%m%d_%H%M")
 
 # Create an archive directory
