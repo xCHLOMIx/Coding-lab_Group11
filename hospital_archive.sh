@@ -3,7 +3,7 @@
 # Create timestamp
 timestamp=$(date +"%Y%m%d_%H%M")
 
-# Create an archive directory
+# Create archive directory
 mkdir -p archived_logs
 
 # Move and rename existing logs
@@ -20,5 +20,5 @@ touch active_logs/temperature_log.log
 
 touch active_logs/water_usage_log.log
 
-echo "Archiving succesful"
+echo "Archiving completed succesfully"
 
